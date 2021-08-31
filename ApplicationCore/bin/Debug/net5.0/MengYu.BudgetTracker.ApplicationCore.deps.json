@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MengYu.BudgetTracker.ApplicationCore/1.0.0": {
+        "runtime": {
+          "MengYu.BudgetTracker.ApplicationCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MengYu.BudgetTracker.ApplicationCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

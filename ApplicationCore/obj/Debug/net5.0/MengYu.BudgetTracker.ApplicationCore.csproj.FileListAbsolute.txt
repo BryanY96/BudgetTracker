@@ -1,0 +1,12 @@
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\bin\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.deps.json
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\bin\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\bin\Debug\net5.0\ref\MengYu.BudgetTracker.ApplicationCore.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\bin\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.pdb
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.csproj.AssemblyReference.cache
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.AssemblyInfoInputs.cache
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.AssemblyInfo.cs
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\ref\MengYu.BudgetTracker.ApplicationCore.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\ApplicationCore\obj\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.pdb

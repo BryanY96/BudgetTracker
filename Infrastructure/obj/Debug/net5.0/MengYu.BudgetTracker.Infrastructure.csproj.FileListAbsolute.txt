@@ -1,0 +1,15 @@
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\bin\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.deps.json
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\bin\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\bin\Debug\net5.0\ref\MengYu.BudgetTracker.Infrastructure.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\bin\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.pdb
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\bin\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\bin\Debug\net5.0\MengYu.BudgetTracker.ApplicationCore.pdb
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.csproj.AssemblyReference.cache
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.AssemblyInfoInputs.cache
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.AssemblyInfo.cs
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.csproj.CopyComplete
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\ref\MengYu.BudgetTracker.Infrastructure.dll
+F:\Laptop_files\My stuff\求职\Antra_FullStack_Training\Project\BudgetTracker\Infrastructure\obj\Debug\net5.0\MengYu.BudgetTracker.Infrastructure.pdb
