@@ -69,8 +69,14 @@ namespace BudgetTrackerAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BudgetTrackerAPI v1"));
             }
-
+            
             app.UseHttpsRedirection();
+
+            // trust the client url with localhost:4200
+            app.UseCors(builder =>
+            {
+                builder.WithOrigins(Configuration.GetValue<string>(key: "clientSPAUrl")).AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+            });
 
             app.UseRouting();
 

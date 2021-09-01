@@ -26,7 +26,7 @@ namespace Infrastructure.Services
 
         public async Task<UserResponseModel> AddUser(AddUserRequestModel model)
         {
-            var dbUser = _userRepository.GetUserByEmail(model.Email);
+            var dbUser = await _userRepository.GetUserByEmail(model.Email);
             if (dbUser != null)
             {
                 throw new Exception("Email already exists");

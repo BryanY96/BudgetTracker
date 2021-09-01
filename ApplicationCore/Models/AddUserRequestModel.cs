@@ -18,9 +18,10 @@ namespace ApplicationCore.Models
 
         [Required]
         [StringLength(10, ErrorMessage = "Password must be between 6 characters and 10 characters long", MinimumLength = 6)]
-        [RegularExpression("^ (?=.*[a - z])(?=.*[A - Z])(?=.*\\d)(?=.*[#$^+=!*()@%&]).{6,}$", ErrorMessage = 
-            "Password should have minimum 6 with at least one upper, lower, number and special character")]
+        //[RegularExpression("^ (?=.*[a - z])(?=.*[A - Z])(?=.*\\d)(?=.*[#$^+=!*()@%&]).{6,}$", ErrorMessage = 
+        //    "Password should have minimum 6 with at least one upper, lower, number and special character")]
         public string Password { get; set; }
+
         [StringLength(50)]
         public string Fullname { get; set; }
         public DateTime? JoinedOn { get; set; }
