@@ -1,0 +1,54 @@
+<div>
+    <h2 style="text-align: center; color:rgba(101, 50, 196, 0.815);">{{users.fullname}}</h2>
+</div>
+<div class="col container-fluid">
+    <div class="card" style="border: hidden">
+        <div class="card-header bg-transparent" style="font:bold; font-size:xx-large">
+            Income Records
+        </div>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item col-1">ID</li>
+            <li class="list-group-item col-2">Amount</li>
+            <li class="list-group-item col-4">Description</li>
+            <li class="list-group-item col-3">Income Date</li>
+            <li class="list-group-item col-2">Remarks</li>
+        </ul>
+        <span *ngFor="let income of users.incomes">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item col-1">{{income.id}}</li>
+                <li class="list-group-item col-2">{{income.amount | currency}}</li>
+                <li class="list-group-item col-4">{{income.description}}</li>
+                <li class="list-group-item col-3">{{income.incomeDate | date: 'M/d/y'}}</li>
+                <li class="list-group-item col-2">{{income.remarks}}</li>
+            </ul>
+        </span>
+        <ul class="list-group-item">Total Income: {{users.totalIncome | currency}}</ul>
+    </div>
+</div>
+<div class="col container-fluid">
+    <div class="card" style="border: hidden">
+        <div class="card-header bg-transparent" style="font:bold; font-size:xx-large">
+            Expenditure Records
+        </div>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item col-1">ID</li>
+            <li class="list-group-item col-2">Amount</li>
+            <li class="list-group-item col-4">Description</li>
+            <li class="list-group-item col-3">Expenditure Date</li>
+            <li class="list-group-item col-2">Remarks</li>
+        </ul>
+        <span *ngFor="let expense of users.expenditures">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item col-1">{{expense.id}}</li>
+                <li class="list-group-item col-2">{{expense.amount | currency}}</li>
+                <li class="list-group-item col-4">{{expense.description}}</li>
+                <li class="list-group-item col-3">{{expense.expDate | date: 'M/d/y'}}</li>
+                <li class="list-group-item col-2">{{expense.remarks}}</li>
+            </ul>
+        </span>
+        <ul class="list-group-item">Total Expenditure: {{users.totalExpenditure | currency}}</ul>
+    </div>
+</div>
+<div class="col container-fluid">
+    <h3>Balance: {{users.balance | currency}}</h3>
+</div>

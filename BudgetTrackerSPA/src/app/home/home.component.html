@@ -1,0 +1,48 @@
+<!-- 
+<div class="rounded">
+    <div class="container-fluid bg-light">
+        <div class="row">
+
+            <div *ngFor="let user of users">
+                // Call child component and pass the moviecard object through the [input] property
+                <app-user-info [user]="user"></app-user-info> 
+
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- <div class="col">
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">User Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Join Date</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let user of users">
+            <tr>
+                <app-user-info [user]="user"></app-user-info>
+            </tr>
+        </tbody>
+    </table>
+</div> -->
+<div class="col container-fluid">
+    <div class="card" style="border: hidden">
+        <div class="card-header bg-transparent" style="font:bold; font-size:xx-large">
+            User Info
+        </div>
+        <ul class="list-group list-group-horizontal" style="color:rgb(130, 16, 184); font:bold; font-size: large;">
+            <li class="list-group-item col-1">ID</li>
+            <li class="list-group-item col-3">Name</li>
+            <li class="list-group-item col-4">Email</li>
+            <li class="list-group-item col-4">Join Date</li>
+        </ul>
+        <span *ngFor="let user of users">
+            <!-- <ul class="list-group list-group-horizontal"> -->
+            <app-user-info [user]="user"></app-user-info>
+            <!-- </ul> -->
+        </span>
+    </div>
+</div>

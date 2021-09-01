@@ -1,0 +1,23 @@
+
+<!-- <th scope="row">
+    {{user.id}}
+</th>
+<td>
+    <a [routerLink]="[ '/user', user.id]">
+        {{user.fullname}}
+    </a>
+</td>
+<td>
+    {{user.email}}
+</td>
+<td>
+    {{user.joinedOn | date:'M/d/yy'}}
+</td> -->
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item col-1">{{user.id}}</li>
+    <li class="list-group-item col-3">
+        <a [routerLink]="[ '/user', user.id]">{{user.fullname}}</a>
+    </li>
+    <li class="list-group-item col-4">{{user.email}}</li>
+    <li class="list-group-item col-4">{{user.joinedOn | date: 'MM/dd/y'}}</li>
+</ul>
