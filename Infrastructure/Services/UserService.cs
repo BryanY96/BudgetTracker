@@ -135,11 +135,15 @@ namespace Infrastructure.Services
 
         public async Task<UserResponseModel> UpdateUser(AddUserRequestModel model)
         {
-            var dbUser = await _userRepository.GetByIdAsync(model.Id);
-            if (dbUser == null)
+            //var dbUser = await _userRepository.GetByIdAsync(model.Id);
+            if (!await _userRepository.GetExistsAsync(u => u.Id == model.Id))
             {
-                throw new Exception("This user dosen't exist");
+                throw new Exception("Error");
             }
+            //if (dbUser == null)
+            //{
+            //    throw new Exception("This user dosen't exist");
+            //}
             var user = new User
             {
                 Id = model.Id,
